@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Example</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.landing-page-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.cta-section {
+    margin: 20px 0;
+}
+
+.cta-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta-section form label {
+    margin: 10px 0 5px 0;
+}
+
+.cta-section form input {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cta-section form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cta-section form button:hover {
+    background-color: #218838;
+}
+
+.benefits-section, .testimonials-section {
+    margin: 20px 0;
+}
+
+.benefits-section h2, .testimonials-section h2 {
+    margin-bottom: 10px;
+}
+
+.benefits-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits-section ul li {
+    margin: 10px 0;
+}
+
+.testimonials-section blockquote {
+    font-style: italic;
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-left: 5px solid #ccc;
+}
+
+    </style>
+</head>
+<body>
+    <div class="landing-page-container">
+        <header>
+            <h1>Get Your Free eBook</h1>
+            <p>Learn the secrets to success in web development.</p>
+        </header>
+        <section class="cta-section">
+            <form action="/submit-form" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <button type="submit">Download Now</button>
+            </form>
+        </section>
+        <section class="benefits-section">
+            <h2>What You'll Learn</h2>
+            <ul>
+                <li>How to build responsive websites</li>
+                <li>Effective SEO strategies</li>
+                <li>Tips for improving user experience</li>
+            </ul>
+        </section>
+        <section class="testimonials-section">
+            <h2>Testimonials</h2>
+            <blockquote>"This eBook changed my career!" - Jane Doe</blockquote>
+            <blockquote>"A must-read for any aspiring web developer." - John Smith</blockquote>
+        </section>
+    </div>
+</body>
+</html>
