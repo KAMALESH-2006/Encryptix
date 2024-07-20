@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Mahatma Gandhi</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.intro, .biography, .images, .quotes, .legacy, .personal-reflections {
+    margin-bottom: 20px;
+}
+
+.images img {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-left: 5px solid #ccc;
+}
+
+cite {
+    display: block;
+    text-align: right;
+    font-style: normal;
+    color: #666;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tribute to Mahatma Gandhi</h1>
+        </header>
+        <section class="intro">
+            <p>Mahatma Gandhi was a leader of the Indian independence movement and a pioneer of the philosophy and strategy of nonviolence.</p>
+        </section>
+        <section class="biography">
+            <h2>Biography</h2>
+            <p>Mohandas Karamchand Gandhi, known as Mahatma Gandhi, was born on October 2, 1869, in Porbandar, India. He studied law in London and later worked in South Africa, where he developed his political views, ethics, and leadership skills. Returning to India, he led nationwide campaigns for easing poverty, expanding women's rights, building religious and ethnic amity, ending untouchability, and, above all, for achieving Swaraj or self-rule.</p>
+            <p>In 1915, Gandhi returned to India and joined the Indian National Congress. His philosophy of nonviolent resistance, or Satyagraha, became the foundation of the Indian independence movement. One of his most notable campaigns was the Salt March in 1930, a 240-mile march to the Arabian Sea to protest the British monopoly on salt production and sales.</p>
+            <p>Throughout his life, Gandhi advocated for civil rights and freedoms. His commitment to nonviolence and his ability to inspire millions of people earned him the title of 'Mahatma,' meaning 'Great Soul.' Gandhi's efforts culminated in India's independence on August 15, 1947. Tragically, he was assassinated on January 30, 1948, but his legacy continues to inspire movements for civil rights and freedom across the world.</p>
+        </section>
+        <section class="images">
+            <h2>Gallery</h2>
+            <h2>MAHATMA GANDHI LEADING THE SALT MARCH</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRvm7Ss_S7jHgXHNAU0DtIn9yI1xHZJ0Ji1w&s" alt="Mahatma Gandhi leading the Salt March">
+            <h2>MAHATMA GANDHI SPINNING KHADI</h2>
+            <img src="https://irp.cdn-website.com/dced804e/dms3rep/multi/celebrating-151-years-of-mahatma-gandhi-charkha-tales.jpg" alt="Mahatma Gandhi spinning khadi">
+            <h2>MAHATMA GANDHI WITH HIS FOLLOWERS</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNCKe6ugZvBEDKy9WAmIrNyUIB97itcgYkmg&s" alt="Mahatma Gandhi with his followers">
+            
+        </section>
+        <section class="quotes">
+            <h2>Quotes</h2>
+            <blockquote>"Be the change that you wish to see in the world."</blockquote>
+            <cite>- Mahatma Gandhi</cite>
+            <blockquote>"The best way to find yourself is to lose yourself in the service of others."</blockquote>
+            <cite>- Mahatma Gandhi</cite>
+            <blockquote>"An eye for an eye only ends up making the whole world blind."</blockquote>
+            <cite>- Mahatma Gandhi</cite>
+            <blockquote>"Live as if you were to die tomorrow. Learn as if you were to live forever."</blockquote>
+            <cite>- Mahatma Gandhi</cite>
+        </section>
+        <section class="legacy">
+            <h2>Legacy</h2>
+            <p>Mahatma Gandhi's impact extends far beyond the borders of India. His philosophy of nonviolence influenced global leaders and movements, including the American civil rights movement led by Martin Luther King Jr., Nelson Mandela's struggle against apartheid in South Africa, and numerous other efforts for social justice and human rights around the world.</p>
+            <p>Gandhi's teachings on simplicity, self-reliance, and sustainability are increasingly relevant in today's world. His emphasis on ethical living and his vision for a just and equitable society continue to inspire new generations to work towards peace and justice.</p>
+        </section>
+        <section class="personal-reflections">
+            <h2>Personal Reflections</h2>
+            <p>Mahatma Gandhi's unwavering commitment to nonviolence and his ability to mobilize millions for the cause of freedom and justice continue to inspire me. His teachings on simplicity, self-reliance, and communal harmony resonate deeply with me and many others. Gandhi's legacy reminds us of the power of peaceful resistance and the importance of standing up for what is right.</p>
+            <p>In my own life, I strive to embody the principles that Gandhi lived by. His message of love, tolerance, and nonviolence is a guiding light in times of conflict and uncertainty. Gandhi's life is a testament to the idea that one person can indeed make a difference, and his legacy serves as a reminder of the enduring power of truth and nonviolence.</p>
+        </section>
+    </div>
+</body>
+</html>
